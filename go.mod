@@ -1,4 +1,4 @@
-module gitlab.hashquark.io/application/staking-service-sdk
+module github.com/foxwallet/staking-service-sdk
 
 go 1.19
 
