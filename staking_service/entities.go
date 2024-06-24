@@ -156,8 +156,9 @@ type PoolRewardInfo struct {
 type PoolRewardInfoList []PoolRewardInfo
 
 type PooledStakingInfo struct {
-	Amount           string `json:"amount"`
-	CumulativeReward string `json:"cumulative_reward"`
+	Principle        string `json:"principle"`
+	RealizedReward   string `json:"realized_reward"`
+	UnrealizedReward string `json:"unrealized_reward"`
 	Point            string `json:"point"`
 	UserAddress      string `json:"user_address"`
 }
