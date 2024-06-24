@@ -156,7 +156,7 @@ type PoolRewardInfo struct {
 type PoolRewardInfoList []PoolRewardInfo
 
 type PooledStakingInfo struct {
-	Principle        string `json:"principle"`
+	Principal        string `json:"principal"`
 	RealizedReward   string `json:"realized_reward"`
 	UnrealizedReward string `json:"unrealized_reward"`
 	Point            string `json:"point"`
